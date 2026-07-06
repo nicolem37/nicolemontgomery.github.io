@@ -988,6 +988,11 @@ html.js-reveal .reveal.in-view {
   gap: 22px;
 }
 
+.contact-grid.contact-grid-2 {
+  grid-template-columns: repeat(2, minmax(0, 320px));
+  max-width: 662px;
+}
+
 .contact-card {
   display: flex;
   flex-direction: column;
@@ -1106,6 +1111,7 @@ html.js-reveal .reveal.in-view {
   .case-list { columns: 1; }
   .explore-grid { grid-template-columns: 1fr; }
   .contact-grid { grid-template-columns: 1fr; }
+  .contact-grid.contact-grid-2 { grid-template-columns: 1fr; max-width: 400px; }
 }
 
 @media (max-width: 940px) {
