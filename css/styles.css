@@ -367,6 +367,14 @@ html.js-reveal .reveal.in-view {
   text-align: center;
 }
 
+.why-qa-section.quote-divider {
+  padding-top: 60px;
+}
+
+#experience {
+  padding-bottom: 88px;
+}
+
 .why-qa-eyebrow {
   text-align: center;
 }
@@ -494,8 +502,19 @@ html.js-reveal .reveal.in-view {
 }
 
 /* ==========================================================================
-   Quality Philosophy — signature 3-card section
+   Quality Philosophy — merged into How I Work as a subsection
    ========================================================================== */
+.philosophy-subsection {
+  margin-top: 88px;
+  padding-top: 72px;
+  border-top: 1px solid var(--line);
+}
+
+.philosophy-subtitle {
+  font-size: clamp(1.5rem, 2.4vw, 1.9rem) !important;
+  margin-bottom: 40px !important;
+}
+
 .philosophy-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -519,9 +538,10 @@ html.js-reveal .reveal.in-view {
   margin-bottom: 18px;
 }
 
-.philosophy-card h3 {
+.philosophy-card h4 {
   font-size: 1.15rem;
   margin-bottom: 14px;
+  color: var(--ink);
 }
 
 .philosophy-card p {
@@ -661,6 +681,14 @@ html.js-reveal .reveal.in-view {
   border: 1px solid var(--slate-light);
 }
 .timeline-content ul li:last-child { margin-bottom: 0; }
+
+.timeline-connector {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 0.98rem;
+  color: var(--accent);
+  margin-top: 18px;
+}
 
 /* ==========================================================================
    Case study
